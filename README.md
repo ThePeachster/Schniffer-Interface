@@ -7,7 +7,9 @@ With this in mind, we present Schniffer: an all-in-one network monitoring, vulne
 
 To access this dashboard, simply type schniffer.local into any web browser that is connected to your network. Using a passcode given on the Schniffer device itself, you may set your log-in credentials to access the dashboard.
 
-Schniffer runs on the Kali Linux operating system. This choice was made due to the pre-configured network tools that are essential in cybersecurity. We leverage OpenVAS and Bro IDS because they are the leaders in open source vulnerability scanning and intrusion detection. 
+Schniffer runs on the Kali Linux operating system. This choice was made due to the pre-configured network tools that are essential in cybersecurity. We leverage OpenVAS and Bro IDS because they are the leaders in open source vulnerability scanning and intrusion detection.
+
+We used React.js for our web interface due to the dynamic nature of information that the Raspberry Pi will be providing to the interface. We wanted to make sure that the interface would properly refresh the contents so that important notifications are received by the user, and React provides that functionality.
 
 See the Schniffer in action:
 https://youtu.be/ZLT8tDjJTRg
